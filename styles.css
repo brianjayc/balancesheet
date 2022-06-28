@@ -1,0 +1,80 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  min-width: 600px;
+  margin: 0px;
+  padding: 5px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+main {
+  border: 2px solid;
+  border-color: rgb(209, 209, 209);
+  max-width: 800px;
+  margin: 0px auto;
+  padding: 40px 20px 60px 20px; 
+}
+
+h1 {
+  margin: 0px;
+  padding-top: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-bottom: 10px;
+}
+
+h3 {
+  margin: 0px;
+  padding-top: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-bottom: 20px;
+}
+
+#years {
+  background-color: rgb(12, 12, 70);
+  color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: flex-end;
+}
+
+#years > span {
+  width: 80px;
+  text-align: right;
+  padding: 8px 5px;
+}
+
+caption {
+  text-align: left;
+  color: rgb(14, 173, 221);
+  padding: 10px 5px;
+  font-size: 16pt;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+td {
+  padding: 8px 4px;
+}
+
+tr:nth-child(odd) {
+  background-color: rgb(209, 209, 209);
+}
+
+.amount {
+  width: 80px;
+  text-align: right;
+}
+
+.description {
+  font-style: italic;
+}
+
+.total {
+  border-bottom: 4px double black;
+}
